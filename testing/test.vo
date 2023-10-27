@@ -1,0 +1,11 @@
+procedure sum[int a, int b]->float {
+	return [
+		a+b
+	];
+}
+
+procedure test[]->void;
+
+procedure main[]->void {
+	var r : int = sum[5,4];
+}
